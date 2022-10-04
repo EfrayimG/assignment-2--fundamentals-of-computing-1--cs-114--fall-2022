@@ -3,10 +3,10 @@ filename = Assignment2
 all: compile run
 
 compile:
-	javac $(filename).java
+	javac Assignment2.java
 
 run:
-	java $(filename)
+	java Assignment2
 
 clean:
-	rm $(filename).class
+	rm Assignment2.class
